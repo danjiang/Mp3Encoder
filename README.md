@@ -2,23 +2,23 @@
 
 1. Compile Third Party Library
 	* Use GNU Make to compile for different iOS architectures
-	* XCode
+	* Xcode
 		* Build Settings
 			* Valid Architectures
 2. Link Third Party Library: 
-	* XCode
+	* Xcode
 		* Build Settings
 			* Header Search Paths
 			* Other C Flags
 		* Build Phases
 			* Link Binary With Libraries
 3. Use Third Party Library
-	* Languange:
+	* Languange
 		* Objective-C ->
 		* Objective-C++ ->
 		* C++
-	* Tool:
-		* use XCode to compile
+	* Tool
+		* use Xcode to compile source code
 
 # Android
 
@@ -31,10 +31,10 @@
 	* Use ndk-build to link as static library 
 	* or CMake to link as static library 
 3. Use Third Party Library
-	* Languange:
+	* Languange
 		* Java ->
 		* JNI ->
 		* C++
-	* Tool:
+	* Tool
 		* use ndk-build to compile as shared library
 		* use ndk-build or CMake to compile as shared library
